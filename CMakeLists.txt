@@ -48,6 +48,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     app/task_camera_ctrl.c
     app/task_idle.c
     app/task_motor_ctrl.c
+    app/task_test.c
     # Board
     board/board.c
     # BSP

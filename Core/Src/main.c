@@ -106,6 +106,11 @@ int main(void)
   uart2_init(115200);
   sys_timer_init();
 
+  /* UART1 启动测试 - 确认串口通信正常 */
+  printf("\r\n[BOOT] STM32F407 智能小车 启动成功\r\n");
+  printf("[BOOT] UART1 115200bps OK\r\n");
+  printf("[BOOT] 输入 test 运行脱机测试\r\n\r\n");
+
   task_idle_init();
   task_camera_ctrl_init();
   /* USER CODE END 2 */
